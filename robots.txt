@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
 
+# Admin panel — not for indexing
+Disallow: /admin-login.html
+Disallow: /admin-dashboard.html
+Disallow: /admin-login.dc.html
+Disallow: /admin-dashboard.dc.html
+
+# Private / transactional pages
+Disallow: /my-account.html
+Disallow: /dashboard.html
+Disallow: /onboarding.html
+Disallow: /offline-sent.html
+Disallow: /certificate-view.html
+
 Sitemap: https://www.yuvaprayaas.com/sitemap.xml
